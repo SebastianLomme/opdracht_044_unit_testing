@@ -36,7 +36,7 @@ test("zou onder of gelijk aan 1600 zijn", () => {
 })
 
 test("There is no I in team", () => {
-    expect("team").not.toMatch("I")
+    expect("team").not.toMatch(/I/i)
 })
 
 test("Admin should be in usernames", () => {
